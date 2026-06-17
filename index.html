@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#ff9eb5">
+    <title>Happy Birthday Siddhi ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="confetti-canvas"></canvas>
+
+<audio id="bgMusic" loop>
+    <source src="music/background.mp3" type="audio/mpeg">
+</audio>
+
+    <section class="hero">
+        <h1>🎂 Happy Birthday Siddhi 🎂</h1>
+
+        <p class="subtitle">
+            A little surprise made with lots of love ❤️
+        </p>
+
+        <button onclick="startSurprise()">
+            HIT THIS ✨
+        </button>
+    </section>
+
+<section id="gallery">
+
+    <h2>👶 CHILDHOOD CUTIE </h2>
+
+    <div class="gallery">
+        <img src="images/childhood1.jpeg">
+        <img src="images/childhood2.jpeg">
+    </div>
+
+    <h2>💑 US TOGETHER</h2>
+
+    <div class="gallery">
+        <img src="images/couple1.jpeg">
+        <img src="images/couple2.jpeg">
+        <img src="images/couple3.jpeg">
+    </div>
+
+    <h2>👸 MY BEAUTIFUL GIRL</h2>
+
+    <div class="gallery">
+        <img src="images/siddhi1.jpeg">
+        <img src="images/siddhi2.jpeg">
+        <img src="images/siddhi3.jpeg">
+        <img src="images/siddhi4.jpeg">
+    </div>
+
+</section>
+
+<section class="message">
+
+    <h2>💌 A Message For You</h2>
+
+    <p id="typedMessage"></p>
+    <span id="cursor">|</span>
+
+</section>
+
+<button id="letterBtn" onclick="openLetter()">
+    💌 Open Secret Letter
+</button>
+
+    <script src="script.js"></script>
+
+<div class="heart">💖</div>
+<div class="heart">💕</div>
+<div class="heart">💗</div>
+<div class="heart">❤️</div>
+<div class="floating-item rose">🌹</div>
+<div class="floating-item rose">🌹</div>
+<div class="floating-item chocolate">🍫</div>
+<div class="floating-item chocolate">🍫</div>
+<div class="floating-item sparkle">✨</div>
+<div class="floating-item sparkle">✨</div>
+<div class="floating-item cake">🎂</div>
+
+<div id="letterPopup" class="letter-popup">
+
+    <div class="letter-card">
+
+        <h2>💌 Dear Siddhi</h2>
+
+        <p>
+            Thank you for every smile, every memory and every moment...🎂🍫🌹
+            
+            HASTE RAHO MUSKURATE RAHO, KYUKI BOHOT ACHHE LAGTE HO...❤️❤️
+        </p>
+
+        <button onclick="closeLetter()">
+            Close
+        </button>
+
+    </div>
+
+</div>
+
+<button id="finalSurpriseBtn" onclick="showFinalSurprise()">
+    🎁 One Last Surprise
+</button>]
+
+<div id="finalPopup" class="final-popup">
+
+    <canvas id="fireworksCanvas"></canvas>
+
+    <div class="final-message">
+
+        <h1 id="typeEnding"></h1>
+
+        <button onclick="closeFinalSurprise()">
+            ❤️ Close
+        </button>
+
+    </div>
+
+</div>
+
+</body>
+
+<div class="corner top-left">🌹</div>
+<div class="corner top-right">🎂</div>
+<div class="corner bottom-left">🍫</div>
+<div class="corner bottom-right">💖</div>
+
+<div id="welcomePopup" class="popup">
+
+    <div class="popup-content">
+
+        <h1>A small effort especially for you... ❤️</h1>
+
+        <button onclick="startWebsite()">
+         Open My Surprise ✨
+        </button>
+
+    </div>
+
+</html>
+<footer>
+
+    Made with ❤️ for Siddhi
+
+    <br>
+
+</footer>
